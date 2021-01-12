@@ -9,7 +9,7 @@ const app = express();
 
 app.use(express.static("public"));
 mongoose.connect(
-  "mongodb+srv://erentutus:12345@cluster0.nxer6.mongodb.net/<greenHouse>?retryWrites=true&w=majority",
+  "",
   { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 
