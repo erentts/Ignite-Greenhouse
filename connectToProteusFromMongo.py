@@ -4,7 +4,7 @@ import serial
 from pymongo import MongoClient
 import struct
 
-cluster = MongoClient("mongodb+srv://erentutus:12345@cluster0.nxer6.mongodb.net/<greenHouse>?retryWrites=true&w=majority")
+cluster = MongoClient("")
 serialPort = serial.Serial(port= "COM1", baudrate=9600 ,bytesize =8 , timeout =None, parity='N',stopbits=1)
 
 db=cluster["<greenHouse>"]
