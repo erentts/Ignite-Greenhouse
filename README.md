@@ -2,11 +2,18 @@
 
 Preview : https://cdtpprojesi.herokuapp.com/
 
-# Requirements
-NodeJS has to be installed.
+## Requirements
+<p> NodeJS has to be installed. </p>
 
-# Installation
+## Installation
+
+Install dependencies
+```sh
 $ npm install
+```
 
 Run the app
+
+```sh
 $ npm run devStart
+```
