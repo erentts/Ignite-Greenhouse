@@ -3,7 +3,7 @@
 Preview : https://cdtpprojesi.herokuapp.com/
 
 ## Requirements
-<p> NodeJS has to be installed. </p>
+<p> NodeJS must be installed. </p>
 
 ## Installation
 
